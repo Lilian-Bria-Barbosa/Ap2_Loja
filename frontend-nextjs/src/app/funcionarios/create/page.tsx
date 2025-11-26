@@ -40,7 +40,7 @@ export default function CreateFuncionario() {
            
             <div className="bg-white p-6 rounded-xl shadow-2xl border border-gray-100">
                 
-                <h2 className="text-3xl font-extrabold text-green-700 mb-6 border-b pb-2">
+                <h2 className="text-3xl font-extrabold text-[#D0D546] mb-6 border-b pb-2">
                     ➕ Cadastrar Novo Funcionário
                 </h2>
 
@@ -72,7 +72,7 @@ export default function CreateFuncionario() {
 
                     
                     <button 
-                        className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 rounded-lg mt-4 shadow-lg transform hover:scale-[1.01] transition duration-200" 
+                        className="bg-[#D0D546] hover:bg-[#D0D546] text-white font-bold py-3 rounded-lg mt-4 shadow-lg transform hover:scale-[1.01] transition duration-200" 
                         type="submit"
                     >
                         Salvar

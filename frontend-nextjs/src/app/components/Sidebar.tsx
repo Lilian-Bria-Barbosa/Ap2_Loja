@@ -1,6 +1,5 @@
 "use client";
 
-
 export default function Sidebar() {
     
     const navItems = [
@@ -12,12 +11,13 @@ export default function Sidebar() {
     ];
 
     return (
-        <div className="flex flex-col w-64 bg-gray-800 text-white min-h-screen p-4">
+        <div className="flex flex-col w-64 bg-gray-800 text-white h-screen p-4">
             <h1 className="text-2xl font-bold mb-8">Painel do Sistema</h1>
+
             <nav className="flex-1">
                 {navItems.map((item) => (
                     <a 
-                        key={item.name} 
+                        key={item.name}
                         href={item.href}
                         className="flex items-center p-3 my-2 rounded-lg transition-colors duration-200 text-gray-300 hover:bg-gray-700 hover:text-white"
                     >

@@ -61,7 +61,7 @@ export default function EditFuncionario() {
         // Container principal estilizado (centralizado, fundo suave e margem superior)
         <div className="p-8 max-w-lg mx-auto mt-10">
             
-            {/* Card para o formulário com sombra e borda arredondada */}
+            
             <div className="bg-white p-6 rounded-xl shadow-2xl border border-gray-100">
                 
            
@@ -95,9 +95,8 @@ export default function EditFuncionario() {
                         onChange={(e) => setForm({ ...form, cpf: e.target.value })}
                     />
 
-                    {/* Botão Atualizar Estilizado */}
                     <button 
-                        className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 rounded-lg mt-4 shadow-lg transform hover:scale-[1.01] transition duration-200" 
+                        className="bg-[#D0D546] hover:bg-[#D0D546] text-white font-bold py-3 rounded-lg mt-4 shadow-lg transform hover:scale-[1.01] transition duration-200" 
                         type="submit"
                     >
                         Atualizar Dados

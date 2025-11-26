@@ -194,8 +194,8 @@ export default function CreateProduto() {
                         disabled={isSubmitting}
                         className={`px-4 py-2 text-sm font-medium rounded-md text-white shadow-lg transition duration-150 ${
                             isSubmitting 
-                                ? 'bg-purple-400 cursor-not-allowed' 
-                                : 'bg-purple-600 hover:bg-purple-700 transform hover:scale-[1.02]'
+                                ? 'bg-[#D0D546] cursor-not-allowed' 
+                                : 'bg-[#D0D546] hover:bg-[#D0D546] transform hover:scale-[1.02]'
                         }`}
                     >
                         {isSubmitting ? 'Salvando...' : 'Salvar Produto'}

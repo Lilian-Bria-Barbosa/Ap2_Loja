@@ -7,6 +7,23 @@ body {
   background-color: #f9fafb;
 }
 
+@layer components {
+ 
+  .btn {
+    @apply px-4 py-2 rounded-lg font-medium shadow
+           bg-[#C9CE46] text-black
+           hover:bg-[#b5ba3f] transition;
+  }
+
+  /* Botão Secundário */
+  .btn-secondary {
+    @apply px-4 py-2 rounded-lg font-medium shadow
+           bg-gray-200 text-gray-800
+           hover:bg-gray-300 transition;
+  }
+}
+
+/* Transição global para todos os botões nativos */
 button {
   transition: all 0.2s ease;
 }

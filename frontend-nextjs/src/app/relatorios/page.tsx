@@ -75,7 +75,7 @@ export default function RelatorioPage() {
                 <a 
                     href="http://localhost:5000/api/relatorio/csv" 
                     download="relatorio_geral.csv"
-                    className="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-2 px-4 rounded-lg shadow-md transition duration-300 transform hover:scale-[1.02]"
+                    className="bg-[#D0D546] hover:bg-[#D0D546] text-white font-semibold py-2 px-4 rounded-lg shadow-md transition duration-300 transform hover:scale-[1.02]"
                 >
                     Exportar Funcionários (CSV)
                 </a>

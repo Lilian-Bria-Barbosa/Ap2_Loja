@@ -33,7 +33,7 @@ export default function FuncionariosPage() {
                 
                 <Link
                     href="/funcionarios/create"
-                    className="bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-2 rounded-lg shadow-md transition duration-300 transform hover:scale-[1.02]"
+                    className="bg-[#D0D546] hover:bg-[#D0D546] text-white font-semibold px-6 py-2 rounded-lg shadow-md transition duration-300 transform hover:scale-[1.02]"
                 >
                     + Novo Funcionário
                 </Link>

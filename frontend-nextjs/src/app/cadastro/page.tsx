@@ -17,9 +17,7 @@ export default function Cadastro() {
     e.preventDefault();
     console.log("Produto cadastrado:", produto);
 
-    // Aqui futuramente você vai integrar com o backend Flask:
-    // await axios.post("http://localhost:5000/api/produtos", produto);
-
+   
     alert("Peça cadastrada com sucesso!");
     setProduto({ nome: "", tamanho: "", quantidade: "" });
   };
@@ -45,7 +43,7 @@ export default function Cadastro() {
         </h2>
 
         <form onSubmit={handleSubmit} className="space-y-4">
-          {/* Nome */}
+          
           <div>
             <label className="block text-gray-600 font-medium mb-1">
               Nome da Peça:
@@ -61,7 +59,7 @@ export default function Cadastro() {
             />
           </div>
 
-          {/* Tamanho */}
+          
           <div>
             <label className="block text-gray-600 font-medium mb-1">
               Tamanho:
@@ -82,7 +80,7 @@ export default function Cadastro() {
             </select>
           </div>
 
-          {/* Quantidade */}
+         
           <div>
             <label className="block text-gray-600 font-medium mb-1">
               Quantidade:
@@ -98,10 +96,10 @@ export default function Cadastro() {
             />
           </div>
 
-          {/* Botão */}
+         
           <button
             type="submit"
-            className="w-full bg-pink-400 hover:bg-pink-500 text-white py-2 rounded-lg transition font-semibold"
+            className="w-full bg-[#D0D546] hover:bg-[#D0D546] text-white py-2 rounded-lg transition font-semibold"
           >
             Cadastrar Peça
           </button>
