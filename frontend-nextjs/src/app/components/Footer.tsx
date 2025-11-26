@@ -64,7 +64,6 @@ export default function Footer() {
 
       </div>
 
-      {/* LINHA FINAL */}
       <div className="text-center text-gray-500 text-xs mt-4 border-t border-gray-700 pt-2">
         © {new Date().getFullYear()} Brizart — Todos os direitos reservados.
       </div>

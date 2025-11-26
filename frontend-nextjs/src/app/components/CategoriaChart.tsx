@@ -8,12 +8,11 @@ const data = [
   { name: "Calçados", value: 10 },
 ];
 
-const COLORS = ["#f472b6", "#86efac", "#93c5fd"];
+const COLORS = ["#D0D546", "#373A3", "#64468A"];
 
 export default function CategoriaChart() {
   const [mounted, setMounted] = useState(false);
 
-  // garante que só renderiza o gráfico no client
   useEffect(() => {
     setMounted(true);
   }, []);
